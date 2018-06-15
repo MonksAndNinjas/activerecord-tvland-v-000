@@ -1,5 +1,4 @@
 class AddNameDaySeasonToShows < ActiveRecord::Migration[4.2]
-  add_column :shows, :name, :string
   add_column :shows, :day, :string
   add_column :shows, :season, :string
 end
